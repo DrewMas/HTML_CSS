@@ -1,0 +1,42 @@
+.top {
+    border-bottom: 1px solid silver;
+}
+
+.list {
+    width: 20%;
+    border: 1px solid black;
+    background: #f8fcff;
+}
+
+.title {
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    column-gap: 10px;
+    margin-top: 25px;
+}
+
+.leftBar {
+    width: 80%;
+}
+
+.rightBar {
+    border: 1px solid black;
+    background: #f8fcff;
+    display: flex;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+td {
+    font-size: small;
+    padding-left: 15px;
+}
+
+tr td:first-child {
+    width: 30%;
+}
