@@ -1,15 +1,40 @@
+body {
+    background: #f6f6f6;
+    display: flex;
+}
+
+.leftWikiBar {
+    width: 25%;
+}
+
+.leftWikiBar img {
+    width: 100%
+}
+
+.mainLeftBarButtons {
+    padding: 0 20px;
+    padding-top: 20px;
+}
+
+.wholeContent {
+    padding: 20px;
+    border: 1px solid #a7d7f9;
+    background: white;
+}
+
 .top {
     border-bottom: 1px solid silver;
 }
 
 .list {
-    width: 20%;
-    border: 1px solid black;
-    background: #f8fcff;
+    width: 15%;
+    border: 1px solid #a2a9b1;
+    background: #f8f9fa;
 }
 
 .title {
     text-align: center;
+
 }
 
 .main {
@@ -19,14 +44,16 @@
 }
 
 .leftBar {
-    width: 80%;
+    width: 85%;
 }
+
+
 
 .rightBar {
     border: 1px solid black;
-    background: #f8fcff;
+    background: #f8f9fa;
     display: flex;
-    width: 20%;
+    width: 15%;
     display: flex;
     flex-direction: column;
     align-items: center;
