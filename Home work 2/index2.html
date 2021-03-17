@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <style>
+            .mainBox {
+                height: 600px;
+                width: 800px;
+                box-sizing: border-box;
+                color: #1a1702;
+                font-family: 'Linux Libertine', 'Georgia', 'Times', 'sans-serif';
+                font-size: xxx-large;
+                text-align: center;
+            }
+
+            .boxTop {
+                width: 100%;
+                height: 33%;
+                background: #d9c58e;
+            }
+
+            .boxBigBottom {
+                display: flex;
+                height: 67%;
+                width: 100%;
+            }
+
+            .boxF {
+                height: 100%;
+                width: 25%;
+                background: #e0e0b9;
+            }
+
+            .boxBottomLeft {
+                width: 75%;
+                height: 100%;
+            }
+
+            .boxB {
+                width: 100%;
+                height: 50%;
+                background: rosybrown;
+            }
+
+            .smallBoxes {
+                width: 33.5%;
+                height: 100%;
+            }
+
+            .boxC-D-E {
+                display: flex;
+                height: 50%;
+            }
+
+            .C {
+                background: burlywood;
+            }
+
+            .D {
+                background: #75776b;
+            }
+
+            .E {
+                background: cornsilk;
+            }
+
+            .border {
+                border: 2px solid black;
+                border-radius: 10px;
+                box-sizing: border-box;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="mainBox">
+            <div class="boxTop border">A</div>
+            <div class="boxBigBottom">
+                <div class="boxBottomLeft">
+                    <div class="boxB border">B</div>
+                    <div class="boxC-D-E">
+                        <div class="smallBoxes C border">C</div>
+                        <div class="smallBoxes D border">D</div>
+                        <div class="smallBoxes E border">E</div>
+                    </div>
+                </div>
+                <div class="boxF border">F</div>
+            </div>
+        </div>
+    </body>
+</html>
