@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <style>
+
+
+            .bigBox {
+                width: 1280px;
+                height: 720px;
+                box-sizing: border-box;
+            }
+
+
+            .topBox {
+                width: 100%;
+                height: 33%;
+                background: darkkhaki;
+            }
+
+            .lowBox {
+                display: flex;
+                width: 100%;
+                height: 67%;
+            }
+
+            .lowBoxLeft {
+                width: 70%;
+                height: 100%;
+                background: bisque;
+            }
+
+            .lowBoxRight {
+                width: 30%;
+                height: 100%;
+                background: beige;
+            }
+
+            .border {
+                border: 2px solid black;
+                border-radius: 10px;
+                box-sizing: border-box;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="bigBox">
+            <div class="topBox border"></div>
+            <div class="lowBox">
+                <div class="lowBoxLeft border"></div>
+                <div class="lowBoxRight border"></div>
+            </div>
+        </div>
+    </body>
+</html>
