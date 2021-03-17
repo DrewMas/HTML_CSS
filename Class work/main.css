@@ -1,10 +1,14 @@
 body {
     background: #f6f6f6;
     display: flex;
+    font-family: sans-serif;
+    font-size:15px
 }
 
 .leftWikiBar {
-    width: 25%;
+    width: 30%;
+    display: table;
+
 }
 
 .leftWikiBar img {
@@ -12,8 +16,13 @@ body {
 }
 
 .mainLeftBarButtons {
-    padding: 0 20px;
+    padding: 20px;
     padding-top: 20px;
+    font-size: small;
+}
+
+.leftBarButtonsPadding {
+    padding: 3px 0;
 }
 
 .wholeContent {
@@ -22,14 +31,23 @@ body {
     background: white;
 }
 
+
 .top {
     border-bottom: 1px solid silver;
+    font-family: 'Linux Libertine','Georgia','Times', 'sans-serif';
+    font-weight: normal;
+
+
 }
 
 .list {
-    width: 15%;
+    width: 12%;
     border: 1px solid #a2a9b1;
     background: #f8f9fa;
+    display: table;
+    padding: 0 5px;
+    font-size: small;
+
 }
 
 .title {
@@ -48,20 +66,34 @@ body {
 }
 
 
-
 .rightBar {
     border: 1px solid black;
     background: #f8f9fa;
-    display: flex;
     width: 15%;
-    display: flex;
     flex-direction: column;
-    align-items: center;
+    padding: 0 10px;
+    display: table;
+    float: right;
+
+}
+
+.rightBar > div > img {
+    width: 100%;
+
+}
+
+.rightBar > h3 {
+    text-align: center
+}
+
+.rightBox {
+    box-sizing: border-box;
+    width: 90%;
 }
 
 td {
-    font-size: small;
-    padding-left: 15px;
+    font-size:smaller;
+
 }
 
 tr td:first-child {
