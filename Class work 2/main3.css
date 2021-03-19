@@ -78,16 +78,11 @@
 }
 
 .leftBlockInner {
+    background: darkorange;
     height: 70%;
     width: 75%;
     display: flex;
-    flex-wrap: wrap;
-}
-
-.left {
-    width: 100%;
-    height: 20%;
-    background: darkorange;
+    align-items: flex-end;
 }
 
 .a-left {
@@ -105,17 +100,15 @@
 .centerBlock {
     height: 100%;
     width: 33.3%;
-}
-
-.centerBlockTop {
-    width: 100%;
-    height: 15%;
     background: deepskyblue;
+    display: flex;
+    align-items: flex-end;
 }
 
 .centerBlockBottom {
     width: 100%;
     height: 85%;
+    background: darkorange;
     display: flex;
 }
 
@@ -147,7 +140,6 @@
 .b-bottom-left {
     height: 100%;
     width: 50%;
-    background: darkorange;
 }
 
 .b-bottom-right-top {
@@ -162,11 +154,10 @@
     background: darkred;
 }
 
-.c {
-    height: 100%;
-    width: 33.3%;
-    background: darkorange;
-}
+/*.c {*/
+/*    !*height: 100%;*!*/
+/*    !*width: 33.3%;*!*/
+/*}*/
 
 .rightBlock {
     height: 100%;
