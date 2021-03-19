@@ -2,56 +2,59 @@
 .main {
     width: 1280px;
     height: 720px;
-    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
 }
 
 #header {
     width: 100%;
     height: 15%;
-    background: #e0e0b9;
-    border: 1px solid black;
-    margin-bottom: 1%;
+    background: rosybrown;
 }
 
 .content {
     display: flex;
     width: 100%;
     height: 70%;
+    column-gap: 10px;
 }
-
 
 #footer {
     width: 100%;
     height: 15%;
-    background: #d9c58e;
-    border: 1px solid black;
-    margin-top:1.2%;
-
+    background: rosybrown;
 }
 
 #menu {
     width: 30%;
-    height: 100%;
-    background: #a2a9b1;
-    border: 1px solid black;
-    margin-right: 1%;
-    margin-bottom: 1%;
-
+    height: 99.5%; /*загубив десь 2,5px по висоті цього блоку, то зменшив сам блок ((( */
+    background: beige;
 }
 
 .post {
     width: 70%;
-    height: 98%;
-
+    height: 100%;
 }
 
 .postSmall {
-    background: #a7d7f9;
+    background:beige;
     height: 50%;
     width: 100%;
-    margin-bottom: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .border {
     border: 1px solid black;
+    border-radius: 10px;
+}
+
+p {
+    padding: 5px;
+    text-align: justify;
 }
