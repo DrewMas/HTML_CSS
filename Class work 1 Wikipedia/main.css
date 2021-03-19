@@ -2,13 +2,13 @@ body {
     background: #f6f6f6;
     display: flex;
     font-family: sans-serif;
-    font-size:15px
+    font-size: 15px
 }
 
 .leftWikiBar {
-    width: 30%;
+    width: 20%;
     display: table;
-
+    min-width: 200px;
 }
 
 .leftWikiBar img {
@@ -34,7 +34,7 @@ body {
 
 .top {
     border-bottom: 1px solid silver;
-    font-family: 'Linux Libertine','Georgia','Times', 'sans-serif';
+    font-family: 'Linux Libertine', 'Georgia', 'Times', 'sans-serif';
     font-weight: normal;
 
 
@@ -74,6 +74,7 @@ body {
     padding: 0 10px;
     display: table;
     float: right;
+    min-width: 300px;
 
 }
 
@@ -92,7 +93,7 @@ body {
 }
 
 td {
-    font-size:smaller;
+    font-size: smaller;
 
 }
 
