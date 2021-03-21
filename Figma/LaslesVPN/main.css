@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+}
+
+.landingpage {
+    background-color: #F6F6F6;
+    width: 1440px;
+}
+
+.nav_bar {
+    width: 1140px;
+    display: flex;
+    align-items: center;
+    padding: 50px 150px 0 150px;
+    column-gap: 150px;
+
+}
+
+.nav_logo {
+    display: flex;
+    align-items: center;
+    width: 148px;
+    height: 36px;
+}
+
+nav {
+    display: flex;
+    column-gap: 40px;
+}
+
+
+.login_buttons {
+    display: flex;
+    align-items: center;
+    width: 233px;
+    justify-content: space-between;
+}
+
+.top_screen {
+    display: flex;
+    padding: 80px 150px;
+    column-gap: 41px;
+}
+
+.pic_2 {
+    margin-top: 20px;
+}
+
+.get_started {
+    margin-top: 50px;
+
+}
+
+.info {
+    width: 1140px;
+    height: 200px;
+
+}
+
